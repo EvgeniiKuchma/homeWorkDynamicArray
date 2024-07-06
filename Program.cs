@@ -43,12 +43,10 @@ namespace homeWorkDynamicArray
 
                     Console.WriteLine("Cумма всех чисел массива равна " + sum + "\n\n");
                 }
-
                 else if (userInput == CommandExit)
                 {
                     isWork = false;
                 }
-
                 else
                 {
                     tempArray = new int[array.Length + 1];
